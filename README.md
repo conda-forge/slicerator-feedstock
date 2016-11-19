@@ -33,7 +33,6 @@ conda search slicerator --channel conda-forge
 ```
 
 
-
 About conda-forge
 =================
 
