@@ -1,4 +1,4 @@
-{% set version = "0.9.7" %}
+{% set version = "0.9.8" %}
 
 package:
     name: slicerator
@@ -7,7 +7,7 @@ package:
 source:
     fn: slicerator-v{{ version }}.tar.gz
     url: https://github.com/soft-matter/slicerator/archive/v{{ version }}.tar.gz
-    sha256: 4a9db7c9dbc277594be7b062458ce724cbd065a02b16d1b3301a3f637e26bd29
+    sha256: 5f2622aa4fa59b4e41434342780af64220f39c25a99db95967e915f4e624e465
 
 build:
     number: 0
@@ -44,3 +44,4 @@ extra:
         - ericdill
         - licode
         - tacaswell
+        - caspervdw
