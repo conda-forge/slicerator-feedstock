@@ -14,9 +14,7 @@ Summary: A lazy-loading, fancy-sliceable iterable.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/slicerator-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/slicerator-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/slicerator-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/slicerator-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/slicerator-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/slicerator-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/slicerator-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/slicerator-feedstock)
 
 Current release info
 ====================
