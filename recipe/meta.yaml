@@ -36,7 +36,6 @@ about:
 extra:
     recipe-maintainers:
         - danielballan
-        - ericdill
         - licode
         - tacaswell
         - caspervdw
