@@ -3,7 +3,7 @@ About slicerator
 
 Home: http://github.com/soft-matter/slicerator
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/slicerator-feedstock/blob/main/LICENSE.txt)
 
