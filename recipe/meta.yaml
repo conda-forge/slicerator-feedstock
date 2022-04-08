@@ -7,7 +7,7 @@ package:
 source:
   fn: slicerator-v{{ version }}.tar.gz
   url: https://github.com/soft-matter/slicerator/archive/v{{ version }}.tar.gz
-  sha256: 6e813f71f594e944187bc6de17f0dd3cf34307373b1d36a4f513897c478d0f8c
+  sha256: a1fe86cb7c74d1a96fb0a899e8c5af1c5796dbff47ea88170a2e4ae6c2e73344
 
 build:
   number: 0
