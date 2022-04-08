@@ -1,41 +1,41 @@
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
-    name: slicerator
-    version: {{ version }}
+  name: slicerator
+  version: {{ version }}
 
 source:
-    fn: slicerator-v{{ version }}.tar.gz
-    url: https://github.com/soft-matter/slicerator/archive/v{{ version }}.tar.gz
-    sha256: 814e8f7ce71a99e45abe0eebbdf6e64bc7effcd8f43cfcafd9b3e5383c4cf6fe
+  fn: slicerator-v{{ version }}.tar.gz
+  url: https://github.com/soft-matter/slicerator/archive/v{{ version }}.tar.gz
+  sha256: 6e813f71f594e944187bc6de17f0dd3cf34307373b1d36a4f513897c478d0f8c
 
 build:
-    number: 0
-    noarch: python
-    script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  number: 0
+  noarch: python
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-    host:
-        - python
-        - pip
+  host:
+    - python
+    - pip
 
-    run:
-        - python
-        - six
+  run:
+    - python
+    - six
 
 test:
-    imports:
-        - slicerator
+  imports:
+    - slicerator
 
 about:
-    home: http://github.com/soft-matter/slicerator
-    license: BSD 3-Clause
-    license_file: LICENSE
-    summary: 'A lazy-loading, fancy-sliceable iterable.'
+  home: http://github.com/soft-matter/slicerator
+  license: BSD 3-Clause
+  license_file: LICENSE
+  summary: A lazy-loading, fancy-sliceable iterable.
 
 extra:
-    recipe-maintainers:
-        - danielballan
-        - licode
-        - tacaswell
-        - caspervdw
+  recipe-maintainers:
+    - danielballan
+    - licode
+    - tacaswell
+    - caspervdw
