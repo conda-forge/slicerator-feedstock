@@ -34,6 +34,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - conda-forge/tacaswell
     - danielballan
     - caspervdw
     - conda-forge/event-model
