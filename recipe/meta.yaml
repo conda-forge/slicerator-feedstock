@@ -10,19 +10,21 @@ source:
   sha256: a1fe86cb7c74d1a96fb0a899e8c5af1c5796dbff47ea88170a2e4ae6c2e73344
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - pip
 
   run:
-    - python >=3.7
+    - python >={{ python_min }}
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - slicerator
 
