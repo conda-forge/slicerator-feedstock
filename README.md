@@ -1,11 +1,11 @@
-About slicerator
-================
+About slicerator-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/slicerator-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/soft-matter/slicerator
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/slicerator-feedstock/blob/main/LICENSE.txt)
 
 Summary: A lazy-loading, fancy-sliceable iterable.
 
@@ -95,7 +95,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -144,7 +144,7 @@ Feedstock Maintainers
 =====================
 
 * [@caspervdw](https://github.com/caspervdw/)
+* [@conda-forge/event-model](https://github.com/orgs/conda-forge/teams/event-model/)
 * [@danielballan](https://github.com/danielballan/)
-* [@licode](https://github.com/licode/)
 * [@tacaswell](https://github.com/tacaswell/)
 
